@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "roomType": "Deluxe Room",
+    "price": 150,
+    "amenities": ["Free Wi-Fi", "Minibar"],
+    "roomImage": "https://example.com/images/deluxe_room.jpg"
+  },
+  {
+    "id": 2,
+    "roomType": "Executive Suite",
+    "price": 250,
+    "amenities": ["Free Wi-Fi", "Jacuzzi"],
+    "roomImage": "https://example.com/images/executive_suite.jpg"
+  },
+  {
+    "id": 3,
+    "roomType": "Luxury Villa",
+    "price": 500,
+    "amenities": ["Private Pool", "Ocean View", "Butler Service"],
+    "roomImage": "https://example.com/images/luxury_villa.jpg"
+  },
+  {
+    "id": 4,
+    "roomType": "Standard Room",
+    "price": 100,
+    "amenities": ["Air Conditioning", "TV"],
+    "roomImage": "https://example.com/images/standard_room.jpg"
+  },
+  {
+    "id": 5,
+    "roomType": "Family Suite",
+    "price": 300,
+    "amenities": ["Kitchenette", "Living Area"],
+    "roomImage": "https://example.com/images/family_suite.jpg"
+  },
+  {
+    "id": 6,
+    "roomType": "Ocean View Suite",
+    "price": 400,
+    "amenities": ["Balcony", "Ocean View"],
+    "roomImage": "https://example.com/images/ocean_view_suite.jpg"
+  },
+  {
+    "id": 7,
+    "roomType": "Honeymoon Suite",
+    "price": 350,
+    "amenities": ["King Bed", "Jacuzzi", "Romantic Decor"],
+    "roomImage": "https://example.com/images/honeymoon_suite.jpg"
+  },
+  {
+    "id": 8,
+    "roomType": "Business Suite",
+    "price": 280,
+    "amenities": ["Workspace", "Meeting Room"],
+    "roomImage": "https://example.com/images/business_suite.jpg"
+  },
+  {
+    "id": 9,
+    "roomType": "Penthouse",
+    "price": 800,
+    "amenities": ["Private Elevator", "Panoramic View"],
+    "roomImage": "https://example.com/images/penthouse.jpg"
+  },
+  {
+    "id": 10,
+    "roomType": "Garden View Room",
+    "price": 120,
+    "amenities": ["Garden View", "Terrace"],
+    "roomImage": "https://example.com/images/garden_view_room.jpg"
+  },
+  {
+    "id": 11,
+    "roomType": "Junior Suite",
+    "price": 200,
+    "amenities": ["Spacious", "Sofa Bed"],
+    "roomImage": "https://example.com/images/junior_suite.jpg"
+  },
+  {
+    "id": 12,
+    "roomType": "Mountain View Room",
+    "price": 130,
+    "amenities": ["Mountain View", "Balcony"],
+    "roomImage": "https://example.com/images/mountain_view_room.jpg"
+  },
+  {
+    "id": 13,
+    "roomType": "Single Room",
+    "price": 90,
+    "amenities": ["Cozy", "Basic Amenities"],
+    "roomImage": "https://example.com/images/single_room.jpg"
+  },
+  {
+    "id": 14,
+    "roomType": "Double Room",
+    "price": 100,
+    "amenities": ["Two Beds", "TV"],
+    "roomImage": "https://example.com/images/double_room.jpg"
+  },
+  {
+    "id": 15,
+    "roomType": "Family Room",
+    "price": 200,
+    "amenities": ["Two Bedrooms", "Living Area"],
+    "roomImage": "https://example.com/images/family_room.jpg"
+  }
+]

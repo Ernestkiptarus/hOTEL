@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Hotel</h1>
+        <nav>
+            <ul>
+                <li><a id="nav-room-list" href="#">Rooms</a></li>
+                <li><a id="nav-reservation" href="#">Make a Reservation</a></li>
+                <li><a id="nav-booking-history" href="#">Booking History</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hotel room listing section -->
+        <section id="room-list">
+            <!-- Display available rooms here -->
+        </section>
+
+        <!-- Reservation section -->
+        <section id="reservation">
+            <h2>Make a Reservation</h2>
+            <form id="reservation-form">
+                <label for="guest-name">Guest Name:</label>
+                <input type="text" id="guest-name" required>
+
+                <label for="guest-email">Guest Email:</label>
+                <input type="email" id="guest-email" required>
+
+                <label for="room">Room Type:</label>
+                <select id="room" required>
+                    <option value="" disabled selected>Select a room</option>
+                    <!-- Populate options dynamically from API in JavaScript -->
+                </select>
+
+                <label for="check-in-date">Check-In Date:</label>
+                <input type="date" id="check-in-date" required>
+
+                <label for="check-out-date">Check-Out Date:</label>
+                <input type="date" id="check-out-date" required>
+
+                <input type="submit" value="Book Now">
+            </form>
+        </section>
+
+        <!-- Booking history section -->
+        <section id="booking-history">
+            <!-- Display bookings here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Hotel Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
